@@ -41,7 +41,6 @@ public final class QueryUtils {
      */
 
     public static ArrayList<Earthquake> fetchEarthquakesData(String requestUrl){
-
         try{
             Thread.sleep(2000);
         }catch (InterruptedException e){
